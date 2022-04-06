@@ -13,7 +13,7 @@ namespace eShopSolution.Data.Configurations
         {
             builder.ToTable("Order");
 
-
+            builder.HasKey(x => x.Id);
         }
     }
 }
